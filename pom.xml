@@ -11,6 +11,10 @@
   <modules>
     <module>payment8001</module>
       <module>order80</module>
+      <module>api-commons</module>
+    <module>eureka-server7001</module>
+      <module>eureka-server7002</module>
+      <module>payment8002</module>
   </modules>
   <packaging>pom</packaging>
 

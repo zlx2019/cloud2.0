@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   application:
     name: payment-service
@@ -17,9 +17,9 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka #注册的eureka地址
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
     register-with-eureka: true #是否注册到eureka,默认为true
     fetch-registry: true #表示是否抓取eureka已注册的信息,如果想使用ribbon必须为true
   instance:
-    instance-id: payment8001 #显示的节点名
+    instance-id: payment8002 #显示的节点名
     prefer-ip-address: true  #访问路径可以显示地址

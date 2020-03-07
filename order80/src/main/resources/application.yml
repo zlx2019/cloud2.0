@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: order
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+    register-with-eureka: true #是否注册到eureka,默认为true
+    fetch-registry: true #表示是否抓取eureka已注册的信息,如果想使用ribbon必须为true
