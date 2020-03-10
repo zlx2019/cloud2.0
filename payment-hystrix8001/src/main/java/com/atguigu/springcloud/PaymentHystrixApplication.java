@@ -2,18 +2,14 @@ package com.atguigu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
 
-/**
- * @author L
- */
 @SpringBootApplication
 @EnableEurekaClient
-public class PaymentApplication8001 {
-
+@EnableCircuitBreaker
+public class PaymentHystrixApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8001.class,args);
+        SpringApplication.run(PaymentHystrixApplication.class,args);
     }
-
 }

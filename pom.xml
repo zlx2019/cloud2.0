@@ -19,6 +19,9 @@
       <module>order80-zookeeper</module>
       <module>payment8005-consul</module>
       <module>order80-consul</module>
+      <module>order80-fegin</module>
+      <module>payment-hystrix8001</module>
+      <module>order80-fegin-hystrix</module>
   </modules>
   <packaging>pom</packaging>
 
