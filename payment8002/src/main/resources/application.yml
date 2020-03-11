@@ -17,7 +17,8 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+      #defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+      defaultZone: http://localhost:7001/eureka #注册的eureka地址
     register-with-eureka: true #是否注册到eureka,默认为true
     fetch-registry: true #表示是否抓取eureka已注册的信息,如果想使用ribbon必须为true
   instance:

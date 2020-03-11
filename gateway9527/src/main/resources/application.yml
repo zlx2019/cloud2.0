@@ -1,0 +1,27 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能,根据微服务名路由
+      routes:
+        #payment服务路由
+        - id: payment_ok
+          #转发到指定的域名
+          #uri: http://localhost:8001
+          #转发到指定的服务
+          uri: lb://payment-service
+          #路由断言,所有的断言都为true才可通过
+          predicates:
+           - Path=/payment/**  #path规则
+           - After=2020-03-11T14:09:42.789+08:00[Asia/Shanghai]  #时间过滤,必须在指定的时间之后访问才生效
+           #- Cookie=username,l #必须cookie中持有key为username,value为 l 才能通过
+           #- Header=X-Request-Id, \d+ #请求头中必须包含此参数,并且值符合正则表达式的规范
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka

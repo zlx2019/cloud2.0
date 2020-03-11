@@ -1,0 +1,28 @@
+server:
+  port: 3344
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+spring:
+  application:
+    name: config
+  cloud:
+    #配置中心地址配置
+    config:
+      server:
+        git:
+          uri: https://github.com/zlx2019/configRepository.git  #仓库地址
+          search-paths:
+            - configRepository  #仓库名
+      label: master  #分支
+  # 消息总线配置
+  rabbitmq:
+    port: 5672
+    host: localhost
+#暴露 bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
