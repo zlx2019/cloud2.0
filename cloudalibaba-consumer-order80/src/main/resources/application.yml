@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  application:
+    name: nacos-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#支付服务名,软编码形式
+service-url:
+  payment-service: http://nacos-payment-service

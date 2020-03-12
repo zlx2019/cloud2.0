@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Component
-@FeignClient(value = "payment-hystrix-service",fallback = PaymentFeignApiHandler.class)
+@FeignClient(value = "payment-hystrix-com.atguigu.springcloud.service",fallback = PaymentFeignApiHandler.class)
 public interface PaymentFeignApi {
 
     @GetMapping("/payment/hystrix/ok/{id}")

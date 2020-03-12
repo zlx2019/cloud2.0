@@ -2,8 +2,32 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-config-nacos3377" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-paovider-payment9001/payment9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3366" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order80-consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order80-fegin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order80-fegin-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order80-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/patment8004-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-hystrix8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment8005-consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-consumer8802" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-consumer8803" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-provider8801" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

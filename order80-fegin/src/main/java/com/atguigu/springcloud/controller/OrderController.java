@@ -27,4 +27,10 @@ public class OrderController {
         return paymentFeignApi.timeout();
     }
 
+
+    @GetMapping("/payment/consumer/zipkin")
+    public String zk(){
+        return paymentFeignApi.zk();
+    }
+
 }

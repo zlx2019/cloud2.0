@@ -14,7 +14,7 @@ eureka:
 #  ConnectTimeout: 7000
 #logging:
 #  level:
-#    com.atguigu.springcloud.service.PaymentFeignApi: debug
+#    com.atguigu.springcloud.com.atguigu.springcloud.service.PaymentFeignApi: debug
 
 #开启feign都熔断机制
 feign:

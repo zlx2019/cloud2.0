@@ -2,7 +2,7 @@ server:
   port: 80
 spring:
   application:
-    name: order-service
+    name: order-com.atguigu.springcloud.service
   cloud:
     consul:
       host: localhost

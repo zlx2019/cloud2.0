@@ -49,4 +49,10 @@ public class PaymentController {
         }
         return new CommonResult(500,"失败");
     }
+
+
+    @GetMapping("/payment/zipkin")
+    public String zk(){
+        return "hello ZipKin!";
+    }
 }

@@ -7,8 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="patment8004-zookeeper" />
+        <module name="stream-rabbitmq-provider8801" />
+        <module name="config-client3355" />
         <module name="order80" />
+        <module name="order80-fegin" />
+        <module name="eureka-server7002" />
+        <module name="payment-hystrix8001" />
+        <module name="api-commons" />
+        <module name="payment9001" />
+        <module name="order80-consul" />
+        <module name="cloudalibaba-config-nacos3377" />
+        <module name="payment8002" />
         <module name="payment8001" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="payment8005-consul" />
+        <module name="gateway9527" />
+        <module name="cloudalibaba-consumer-order80" />
+        <module name="config-client3366" />
+        <module name="eureka-server7001" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="order80-fegin-hystrix" />
+        <module name="config-center3344" />
+        <module name="stream-rabbitmq-consumer8802" />
+        <module name="stream-rabbitmq-consumer8803" />
+        <module name="hystrix-dashboard9001" />
+        <module name="order80-zookeeper" />
       </profile>
     </annotationProcessing>
   </component>
