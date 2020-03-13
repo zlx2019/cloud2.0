@@ -7,7 +7,8 @@ spring:
     #nacos 配置
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 192.168.194.189:1111 #注册中心代理服务器地址nginx,集群注册
+      #server-addr: localhost:8848 #单机注册
 #暴露所有监控端点
 management:
   endpoints:
